@@ -13,6 +13,7 @@ public class Student extends Person{
     }
 
     public void stuTest() {
+        System.out.println(this.grade);
         System.out.println("我是stu的Test函数");
     }
 }
