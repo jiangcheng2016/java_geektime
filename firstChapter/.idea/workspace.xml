@@ -20,39 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8526d055-8004-4a18-bed5-91f06052ebb6" name="Default Changelist" comment="class_ChapterTwo">
-      <change afterPath="$PROJECT_DIR$/../SuperMarket/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SuperMarket/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SuperMarket/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SuperMarket/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SuperMarket/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SuperMarket/SuperMarket.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SuperMarket/out/production/SuperMarket/Person/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SuperMarket/out/production/SuperMarket/RunLittleSuperMarketAppMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SuperMarket/out/production/SuperMarket/SuperMarket/LittleSuperMarket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SuperMarket/out/production/SuperMarket/SuperMarket/Merchandise.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SuperMarket/src/Person/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SuperMarket/src/RunLittleSuperMarketAppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SuperMarket/src/SuperMarket/LittleSuperMarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SuperMarket/src/SuperMarket/Merchandise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_geektime.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_geektime.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_geektime/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_geektime/MerchandiseUsingVariableEample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_geektime/towPasseager/Merchandise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_geektime/towPasseager/SuperMarket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/MerchandiseUsingVariableEample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/super_test/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/super_test/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/super_test/XStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test_jvm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/towPasseager/Merchandise.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/towPasseager/SuperMarket.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Supermarket_2_11/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Supermarket_2_11/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Supermarket_2_11/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Supermarket_2_11/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Supermarket_2_11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Supermarket_2_11/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Supermarket_2_11/Supermarket_2_11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Supermarket_2_11/src/com/jiangrzc/supermarket/Merchandise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +57,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SuperMarket" />
@@ -146,7 +123,8 @@
       <workItem from="1621087260606" duration="614000" />
       <workItem from="1622301022751" duration="329000" />
       <workItem from="1626307963400" duration="1328000" />
-      <workItem from="1626355929727" duration="342000" />
+      <workItem from="1626355929727" duration="806000" />
+      <workItem from="1626399889271" duration="462000" />
     </task>
     <task id="LOCAL-00001" summary="class_ChapterTwo">
       <created>1614681436173</created>
@@ -193,29 +171,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="class_ChapterTwo" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2607" y="201" key="FileChooserDialogImpl" timestamp="1626308062662">
+    <state x="2607" y="201" key="FileChooserDialogImpl" timestamp="1626400032806">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2607" y="201" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1626308062662" />
-    <state width="1867" height="144" key="GridCell.Tab.0.bottom" timestamp="1622301354086">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="2607" y="201" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1626400032806" />
+    <state width="1867" height="144" key="GridCell.Tab.0.bottom" timestamp="1626357583741">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
+    <state width="1867" height="144" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1626357583741" />
     <state width="1867" height="144" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1622301354086" />
-    <state width="1867" height="144" key="GridCell.Tab.0.center" timestamp="1622301354086">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1867" height="144" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1622301354086" />
-    <state width="1867" height="144" key="GridCell.Tab.0.left" timestamp="1622301354085">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1867" height="144" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1622301354085" />
-    <state width="1867" height="144" key="GridCell.Tab.0.right" timestamp="1622301354086">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1867" height="144" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1622301354086" />
-    <state x="2078" y="33" key="new project wizard" timestamp="1626308086845">
+    <state width="1867" height="144" key="GridCell.Tab.0.center" timestamp="1626357583741">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2078" y="33" key="new project wizard/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1626308086845" />
+    <state width="1867" height="144" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1626357583741" />
+    <state width="1867" height="144" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1622301354086" />
+    <state width="1867" height="144" key="GridCell.Tab.0.left" timestamp="1626357583741">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="144" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1626357583741" />
+    <state width="1867" height="144" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1622301354085" />
+    <state width="1867" height="144" key="GridCell.Tab.0.right" timestamp="1626357583741">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="144" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1626357583741" />
+    <state width="1867" height="144" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1622301354086" />
+    <state x="2078" y="33" key="new project wizard" timestamp="1626400034987">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2078" y="33" key="new project wizard/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1626400034987" />
   </component>
 </project>
