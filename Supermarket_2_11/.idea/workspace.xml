@@ -20,6 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6df3301d-3940-48d5-aa48-79f9ef3881ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/InstanceofTestAppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/MerchandiseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/OverloadAndOverrideTestAppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/OverloadTestAppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/supermarket/LittleSuperMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/supermarket/MerchandiseV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/supermarket/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/supermarket/ShellColorChangePhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,41 +73,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.LearnStringBuilder">
-    <configuration name="AIMainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangrzc.supermarket.ai.AIMainApp" />
+  <component name="RunManager" selected="Application.InstanceofTestAppMain">
+    <configuration name="InstanceofTestAppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangrzc.InstanceofTestAppMain" />
       <module name="Supermarket_2_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiangrzc.supermarket.ai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvokeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangrzc.supermarket.InvokeMain" />
-      <module name="Supermarket_2_11" />
-      <option name="PROGRAM_PARAMETERS" value="d c 3 4 &quot;dk&quot; 8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiangrzc.supermarket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LearnMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangrzc.supermarket.LearnMain" />
-      <module name="Supermarket_2_11" />
-      <option name="PROGRAM_PARAMETERS" value="a b c &quot;dd&quot; 1 3 3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiangrzc.supermarket.*" />
+          <option name="PATTERN" value="com.jiangrzc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,20 +113,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OverloadAndOverrideTestAppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangrzc.OverloadAndOverrideTestAppMain" />
+      <module name="Supermarket_2_11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiangrzc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OverloadTestAppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangrzc.OverloadTestAppMain" />
+      <module name="Supermarket_2_11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiangrzc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.AIMainApp" />
-      <item itemvalue="Application.LearnMain" />
-      <item itemvalue="Application.InvokeMain" />
       <item itemvalue="Application.LearnSystem" />
       <item itemvalue="Application.LearnStringBuilder" />
+      <item itemvalue="Application.OverloadAndOverrideTestAppMain" />
+      <item itemvalue="Application.OverloadTestAppMain" />
+      <item itemvalue="Application.InstanceofTestAppMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InstanceofTestAppMain" />
+        <item itemvalue="Application.OverloadTestAppMain" />
+        <item itemvalue="Application.OverloadAndOverrideTestAppMain" />
         <item itemvalue="Application.LearnStringBuilder" />
         <item itemvalue="Application.LearnSystem" />
-        <item itemvalue="Application.InvokeMain" />
-        <item itemvalue="Application.LearnMain" />
-        <item itemvalue="Application.AIMainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +170,8 @@
       <workItem from="1626576143409" duration="6391000" />
       <workItem from="1626658618994" duration="5032000" />
       <workItem from="1626748365335" duration="608000" />
-      <workItem from="1626833452001" duration="1268000" />
+      <workItem from="1626833452001" duration="1866000" />
+      <workItem from="1626923276306" duration="3802000" />
     </task>
     <servers />
   </component>
@@ -195,26 +202,26 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2330" y="170" width="1106" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1626662580792" />
-    <state width="1867" height="208" key="GridCell.Tab.0.bottom" timestamp="1626704793957">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1867" height="272" key="GridCell.Tab.0.bottom" timestamp="1626947024258">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1867" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1626704793957" />
-    <state width="1867" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1626594247609" />
-    <state width="1867" height="208" key="GridCell.Tab.0.center" timestamp="1626704793957">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1867" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1626947024258" />
+    <state width="1867" height="272" key="GridCell.Tab.0.center" timestamp="1626947024258">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1867" height="208" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1626704793957" />
-    <state width="1867" height="208" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1626594247608" />
-    <state width="1867" height="208" key="GridCell.Tab.0.left" timestamp="1626704793957">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1867" height="272" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1626947024258" />
+    <state width="1867" height="272" key="GridCell.Tab.0.left" timestamp="1626947024258">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1867" height="208" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1626704793957" />
-    <state width="1867" height="208" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1626594247608" />
-    <state width="1867" height="208" key="GridCell.Tab.0.right" timestamp="1626704793957">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1867" height="272" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1626947024258" />
+    <state width="1867" height="272" key="GridCell.Tab.0.right" timestamp="1626947024258">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1867" height="208" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1626704793957" />
-    <state width="1867" height="208" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1626594247608" />
+    <state width="1867" height="272" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1626947024258" />
     <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1626594193870">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
