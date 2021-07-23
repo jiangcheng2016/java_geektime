@@ -1,13 +1,16 @@
 package com.jiangrzc.supermarket;
 
+import java.util.Objects;
+
 public class MerchandiseV2 {
 
     public String name;
     public String id;
-    public int count;
+    private int count;
     public double soldPrice;
     public double purchasePrice;
 
+    public static String STATIC_MEMBER = "test static member";
 
     public MerchandiseV2(String name, String id, int count, double soldPrice, double purchasePrice) {
         this.name = name;
@@ -65,6 +68,41 @@ public class MerchandiseV2 {
         }
     }
 
+    //TODO hashCode 和 equals 是我们最常覆盖的两个方法
+    //TODO 覆盖的原则是，equals 为 true, hashCode 就应该相等。这是一种约定俗成的规定。
+    //TODO 即 equals 为true 是hashCode相等的充分非必要条件， hashCode相等是equals	为ture的必要不充分条件。
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof MerchandiseV2)) return false;
+        MerchandiseV2 that = (MerchandiseV2) o;
+        return this.getCount() == that.getCount() &&
+                Double.compare(that.getSoldPrice(), getSoldPrice()) == 0 &&
+                Double.compare(that.getPurchasePrice(), getPurchasePrice()) == 0 &&
+                getName().equals(that.getName()) &&
+                getId().equals(that.getId());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getName(), getId(), getCount(), getSoldPrice(), getPurchasePrice());
+    }
+
+    @Override
+    public String toString() {
+        return "MerchandiseV2{" +
+                "name='" + name + '\'' +
+                ", id='" + id + '\'' +
+                ", count=" + count +
+                ", soldPrice=" + soldPrice +
+                ", purchasePrice=" + purchasePrice +
+                '}';
+    }
+
+    public static String getNameOf(MerchandiseV2 m)
+    {
+        return m.getName();
+    }
 
     public String getName() {
         return name;

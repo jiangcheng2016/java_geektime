@@ -73,6 +73,20 @@ public class LittleSuperMarket {
         merchandiseSold = new int[merchandises.length];
     }
 
+    public boolean findMerchandise(MerchandiseV2 target) {
+        int i = 0;
+        for (MerchandiseV2 m : merchandises) {
+            boolean match = m.equals(target);
+//            boolean match = (m == target);
+            if (match) {
+                System.out.println("找到了商品，位置在" + i);
+                return true;
+            }
+            i++;
+        }
+        return false;
+    }
+
     // 简单的访问成员变量
 
     public String getSuperMarketName() {

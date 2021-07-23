@@ -33,9 +33,9 @@ public class Phone extends MerchandiseV2 {
         return super.buy(count);
     }
 
-    public String getName() {
-        return this.brand + ":" + this.os + ":" + super.getName();
-    }
+//    public String getName() {
+//        return this.brand + ":" + this.os + ":" + super.getName();
+//    }
 
     public void describe() {
         System.out.println("此手机商品属性如下");
