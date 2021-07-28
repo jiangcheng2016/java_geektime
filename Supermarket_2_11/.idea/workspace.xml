@@ -20,6 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6df3301d-3940-48d5-aa48-79f9ef3881ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Chapter3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,6 +174,7 @@
       <workItem from="1627002172611" duration="11047000" />
       <workItem from="1627090447358" duration="5936000" />
       <workItem from="1627214440156" duration="697000" />
+      <workItem from="1627368663871" duration="438000" />
     </task>
     <servers />
   </component>
@@ -212,6 +217,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="643" y="176" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1050@0.0.1920.1050" timestamp="1627004252896" />
+    <state x="687" y="201" key="FileChooserDialogImpl" timestamp="1627369069391">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="687" y="201" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1627369069391" />
     <state width="1867" height="72" key="GridCell.Tab.0.bottom" timestamp="1627142034760">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -248,6 +257,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1867" height="334" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1627054293220" />
+    <state x="158" y="33" key="new project wizard" timestamp="1627369070954">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="158" y="33" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1627369070954" />
     <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1627091607742">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
