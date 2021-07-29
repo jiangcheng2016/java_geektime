@@ -20,17 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95af031c-0cd2-42fe-9fca-5003d31f7079" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/CallStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/ExceptionTrans/CallExceptionAppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/ExceptionTrans/CallRTExceptionAppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/ExceptionTrans/Caller1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/ExceptionTrans/Caller2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/ExceptionTrans/Caller3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/impl/IntfWithExImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/intf/IntfWithEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/myexception/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/myexception/MyRunTimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/autoRecycling/MyAutoCloseableResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/autoRecycling/TryWithResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/tryCatchFinal/CatchMultiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/tryCatchFinal/TryCatchFinallyAppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/tryCatchFinal/TryFinallAppMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +69,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.CallExceptionAppMain">
+  <component name="RunManager" selected="Application.TryWithResource">
     <configuration name="CallExceptionAppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiangrzc.ExceptionTrans.CallExceptionAppMain" />
       <module name="Chapter3" />
@@ -89,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallRTExceptionAppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangrzc.ExceptionTrans.CallRTExceptionAppMain" />
+    <configuration name="CatchMultiException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangrzc.tryCatchFinal.CatchMultiException" />
       <module name="Chapter3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiangrzc.ExceptionTrans.*" />
+          <option name="PATTERN" value="com.jiangrzc.tryCatchFinal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangrzc.CallStack" />
+    <configuration name="TryCatchFinallyAppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangrzc.tryCatchFinal.TryCatchFinallyAppMain" />
       <module name="Chapter3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiangrzc.*" />
+          <option name="PATTERN" value="com.jiangrzc.tryCatchFinal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotHaveToHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangrzc.NotHaveToHandler" />
+    <configuration name="TryFinallAppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangrzc.tryCatchFinal.TryFinallAppMain" />
       <module name="Chapter3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiangrzc.*" />
+          <option name="PATTERN" value="com.jiangrzc.tryCatchFinal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiangrzc.ThrowIt" />
+    <configuration name="TryWithResource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangrzc.autoRecycling.TryWithResource" />
       <module name="Chapter3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiangrzc.*" />
+          <option name="PATTERN" value="com.jiangrzc.autoRecycling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TryWithResource" />
+        <item itemvalue="Application.CatchMultiException" />
+        <item itemvalue="Application.TryFinallAppMain" />
+        <item itemvalue="Application.TryCatchFinallyAppMain" />
         <item itemvalue="Application.CallExceptionAppMain" />
-        <item itemvalue="Application.CallRTExceptionAppMain" />
-        <item itemvalue="Application.CallStack" />
-        <item itemvalue="Application.ThrowIt" />
-        <item itemvalue="Application.NotHaveToHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +156,8 @@
       <option name="presentableId" value="Default" />
       <updated>1627369071846</updated>
       <workItem from="1627369075010" duration="5494000" />
-      <workItem from="1627434801015" duration="7177000" />
+      <workItem from="1627434801015" duration="7275000" />
+      <workItem from="1627516790563" duration="4921000" />
     </task>
     <servers />
   </component>
@@ -182,35 +177,43 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2638" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1627480709188">
+    <state x="2638" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1627520598926">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2638" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1627480709188" />
+    <state x="2638" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1627520598926" />
     <state x="718" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1627435226063" />
-    <state width="1867" height="114" key="GridCell.Tab.0.bottom" timestamp="1627481919526">
+    <state x="2607" y="201" key="FileChooserDialogImpl" timestamp="1627523208160">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="114" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1627481919526" />
+    <state x="2607" y="201" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1627523208160" />
+    <state width="1867" height="173" key="GridCell.Tab.0.bottom" timestamp="1627523243664">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="173" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1627523243664" />
     <state width="1867" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1627441168317" />
-    <state width="1867" height="114" key="GridCell.Tab.0.center" timestamp="1627481919526">
+    <state width="1867" height="173" key="GridCell.Tab.0.center" timestamp="1627523243664">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="114" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1627481919526" />
+    <state width="1867" height="173" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1627523243664" />
     <state width="1867" height="255" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1627441168317" />
-    <state width="1867" height="114" key="GridCell.Tab.0.left" timestamp="1627481919525">
+    <state width="1867" height="173" key="GridCell.Tab.0.left" timestamp="1627523243664">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="114" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1627481919525" />
+    <state width="1867" height="173" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1627523243664" />
     <state width="1867" height="255" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1627441168317" />
-    <state width="1867" height="114" key="GridCell.Tab.0.right" timestamp="1627481919526">
+    <state width="1867" height="173" key="GridCell.Tab.0.right" timestamp="1627523243664">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="114" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1627481919526" />
+    <state width="1867" height="173" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1627523243664" />
     <state width="1867" height="255" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1627441168317" />
-    <state x="2459" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1627481785940">
+    <state x="2078" y="33" key="new project wizard" timestamp="1627523210048">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2459" y="15" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1627481785940" />
+    <state x="2078" y="33" key="new project wizard/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1627523210048" />
+    <state x="2459" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1627521239458">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2459" y="15" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1627521239458" />
     <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1627435418803" />
   </component>
 </project>
