@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--配置User对象创建-->
+    <bean id="user" class="com.jiangrzc.User"></bean>
+
+    <!--配置Book对象创建-->
+    <!--2.set方法注入属性-->
+    <bean id="book" class="com.jiangrzc.Book">
+        <!--
+            使用property完成属性注入
+             name:类里面属性名称
+             value:向属性注入的值
+        -->
+        <property name="bname" value="易筋经"></property>
+        <property name="bauthor" value="达摩老祖"></property>
+
+        <!--null值-->
+<!--        <property name="address">-->
+<!--            <null></null>-->
+<!--        </property>-->
+
+        <!--特殊值-->
+        <property name="address">
+            <!--属性值包含特殊符号
+                1.使用<>转义字符 &lt;&gt;
+                2.把带特殊字符的内容写到CDATA
+            -->
+            <value> <![CDATA[<<南京>>]]> </value>
+
+        </property>
+
+    </bean>
+
+    <!--配置Orders对象创建-->
+    <!--3.有参构造方法注入属性-->
+    <bean id="orders" class="com.jiangrzc.Orders">
+        <!--
+            使用constructor-arg完成属性注入
+             name:类里面属性名称
+             value:向属性注入的值
+        -->
+        <constructor-arg name="oname" value="计算机"></constructor-arg>
+        <constructor-arg name="address" value="山东"></constructor-arg>
+    </bean>
+
+    <!--4.P名称空间注入属性-->
+<!--    <bean id="book" class="com.jiangrzc.Book" p:bname="九阳神功" p:bauthor="无名氏"></bean>-->
+</beans>
