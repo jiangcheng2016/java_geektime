@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95af031c-0cd2-42fe-9fca-5003d31f7079" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/autoRecycling/MyAutoCloseableResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/autoRecycling/TryWithResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/tryCatchFinal/CatchMultiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/tryCatchFinal/TryCatchFinallyAppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jiangrzc/tryCatchFinal/TryFinallAppMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Supermarket_2_11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Supermarket_2_11/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +153,7 @@
       <workItem from="1627369075010" duration="5494000" />
       <workItem from="1627434801015" duration="7275000" />
       <workItem from="1627516790563" duration="4921000" />
+      <workItem from="1627830447830" duration="194000" />
     </task>
     <servers />
   </component>

@@ -19,6 +19,13 @@ public class Stu {
     //4.set集合
     private Set<String> sets;
 
+    //5.Course类集合
+    private List<Course> courseList;
+
+    public void setCourseList(List<Course> courseList) {
+        this.courseList = courseList;
+    }
+
     public void setCourses(String[] courses) {
         this.courses = courses;
     }
@@ -40,5 +47,6 @@ public class Stu {
         System.out.println("list:" + list);
         System.out.println("maps:" + maps);
         System.out.println("sets:" + sets);
+        System.out.println("lsitCourse:" + courseList);
     }
 }
