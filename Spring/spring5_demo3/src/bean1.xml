@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--1.集合类型属性注入-->
+    <bean id="stu" class="com.jiangrzc.collectionType.Stu">
+
+        <!--数组集合类型属性注入-->
+        <property name="courses">
+            <array>
+                <value>Java课程</value>
+                <value>数据库课程</value>
+                <value>操作系统</value>
+            </array>
+        </property>
+
+        <!--List类型属性注入-->
+        <property name="list">
+            <list>
+                <value>张三</value>
+                <value>李四</value>
+                <value>王二麻子</value>
+            </list>
+        </property>
+
+        <!--Map类型属性注入-->
+        <property name="maps">
+            <map>
+                <entry key="JAVA" value="java"></entry>
+                <entry key="DATABASE" value="database"></entry>
+                <entry key="OS" value="os"></entry>
+            </map>
+        </property>
+
+        <!--set类型属性注入-->
+        <property name="sets">
+            <set>
+                <value>MySQL</value>
+                <value>Redis</value>
+                <value>Linux</value>
+            </set>
+        </property>
+
+        <!--注入list集合类型，值是对象-->
+        <property name="courseList">
+                <list>
+                    <ref bean="course1"></ref>
+                    <ref bean="course2"></ref>
+                    <ref bean="course3"></ref>
+                </list>
+        </property>
+
+    </bean>
+
+    <!--创建多个Course对象-->
+    <bean id="course1" class=" com.jiangrzc.collectionType.Course">
+        <property name="cname" value="Spring5框架"></property>
+    </bean>
+
+    <bean id="course2" class="com.jiangrzc.collectionType.Course">
+        <property name="cname" value="JVM内存模型"></property>
+    </bean>
+
+    <bean id="course3" class="com.jiangrzc.collectionType.Course">
+        <property name="cname" value="MyBatis框架"></property>
+    </bean>
+
+</beans>

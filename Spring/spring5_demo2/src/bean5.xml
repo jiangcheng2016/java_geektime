@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--
+        bean 的生命周期
+        1.通过构造器创建 bean 实例
+        2.为 bean 的属性设置值和对其他 bean 引用(调用set方法)
+        3.把 bean 实例传递 bean后置处理器的方法 PostProcessBeforeInitialization
+        4.调用 bean 的初始化方法(需要进行配置)
+        5.把 bean 实例传递 bean后置处理器的方法 PostProcessAfterInitialization
+        6.bean 可以使用了(对象获取到了)
+        7.当容器关闭的时候，调用 bean 的销毁方法(需要进行配置销毁的方法)
+    -->
+    <!---->
+    <bean id="orders" class="com.jiangrzc.bean.Orders" init-method="initMethod" destroy-method="destoryMethod">
+        <property name="oname" value="电脑"></property>
+    </bean>
+    <!--bean后期处理器-->
+    <bean id="myBeanPost" class="com.jiangrzc.bean.MyBeanPost"></bean>
+</beans>
