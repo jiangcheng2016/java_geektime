@@ -1,5 +1,6 @@
 package com.jiangrzc.test;
 
+import com.jiangrzc.autowried.Emp;
 import com.jiangrzc.bean.Orders;
 import com.jiangrzc.collectionType.Book;
 import com.jiangrzc.collectionType.Course;
@@ -81,6 +82,21 @@ public class TestBean {
         //((ClassPathXmlApplicationContext)context).close();  //因为获取Spring配置文件的时候用的是ApplicationContext，所以要进行强制转换
         //如果获取Spring配置文件的时候用的是 ClassPathXmlApplicationContext,则可直接使用 close();
         context.close();
+
+
+    }
+
+    @Test
+    public void testBean5(){
+
+        //1.获取spring配置文件
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean5.xml");
+
+        //2.获取配置创建的对象
+        Emp emp = context .getBean("emp", Emp.class);
+
+        //操作
+        System.out.println(emp);
 
 
     }
