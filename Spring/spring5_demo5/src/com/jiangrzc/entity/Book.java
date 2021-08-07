@@ -2,31 +2,40 @@ package com.jiangrzc.entity;
 
 public class Book {
 
-    private String bid;
-    private String bname;
-    private String bstatu;
+    private String b_id;
+    private String b_name;
+    private String b_statu;
 
-    public String getBid() {
-        return bid;
+    public String getB_id() {
+        return b_id;
     }
 
-    public void setBid(String bid) {
-        this.bid = bid;
+    public void setB_id(String b_id) {
+        this.b_id = b_id;
     }
 
-    public String getBname() {
-        return bname;
+    public String getB_name() {
+        return b_name;
     }
 
-    public void setBname(String bname) {
-        this.bname = bname;
+    public void setB_name(String b_name) {
+        this.b_name = b_name;
     }
 
-    public String getBstatu() {
-        return bstatu;
+    public String getB_statu() {
+        return b_statu;
     }
 
-    public void setBstatu(String bstatu) {
-        this.bstatu = bstatu;
+    public void setB_statu(String b_statu) {
+        this.b_statu = b_statu;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "b_id='" + b_id + '\'' +
+                ", b_name='" + b_name + '\'' +
+                ", b_statu='" + b_statu + '\'' +
+                '}';
     }
 }
