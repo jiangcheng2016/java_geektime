@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3affd8b-1732-448d-a5a8-1dd5348779d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../recruitment/src/com/jiangrzc/bishi/zijie0822_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis1/src/main/java/redisTest/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recruitment/out/production/recruitment/com/jiangrzc/bishi/Wangyi0821_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../recruitment/out/production/recruitment/com/jiangrzc/bishi/Wangyi0821_1.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../software/apache-maven-3.2.5" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.2.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1x4ihDHkQPoKegWoUAeivkfz2jQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="redisTest.Test" />
+      <module name="redis1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redisTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3affd8b-1732-448d-a5a8-1dd5348779d4" name="Default Changelist" comment="" />
+      <created>1629620877664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629620877664</updated>
+      <workItem from="1629620880473" duration="1803000" />
+      <workItem from="1629625140639" duration="3677000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="312" y="0" key="#Project_Structure" timestamp="1629629001858">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="312" y="0" key="#Project_Structure/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1629629001858" />
+    <state x="2298" y="185" key="FileChooserDialogImpl" timestamp="1629625249343">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="238" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1629620962816" />
+    <state x="2298" y="185" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1629625249343" />
+    <state width="1865" height="245" key="GridCell.Tab.0.bottom" timestamp="1629630164546">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1629630164546" />
+    <state width="1865" height="245" key="GridCell.Tab.0.center" timestamp="1629630164545">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="245" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1629630164545" />
+    <state width="1865" height="245" key="GridCell.Tab.0.left" timestamp="1629630164545">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="245" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1629630164545" />
+    <state width="1865" height="245" key="GridCell.Tab.0.right" timestamp="1629630164546">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="245" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1629630164546" />
+    <state x="2294" y="95" key="Maven.ArtifactSearchDialog" timestamp="1629625395625">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2294" y="95" key="Maven.ArtifactSearchDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1629625395625" />
+    <state x="237" y="0" key="SettingsEditor" timestamp="1629629224277">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="237" y="0" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1629629224277" />
+    <state x="2232" y="0" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1629625558295" />
+    <state x="161" y="123" key="new project wizard" timestamp="1629620992372">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="161" y="123" key="new project wizard/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1629620992372" />
+  </component>
+</project>
