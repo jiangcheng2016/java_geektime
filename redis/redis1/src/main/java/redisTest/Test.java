@@ -14,5 +14,8 @@ public class Test {
         //Jedis 所有的命令
         System.out.println(jedis.ping());
 
+        System.out.println("hhhh");
+
     }
 }
+
