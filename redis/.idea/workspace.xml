@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3affd8b-1732-448d-a5a8-1dd5348779d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../recruitment/src/com/jiangrzc/dailyPractice/xiangqidfs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis1/src/main/java/redisTest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis1/src/main/java/redisTest/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,7 @@
       <updated>1629620877664</updated>
       <workItem from="1629620880473" duration="1803000" />
       <workItem from="1629625140639" duration="3678000" />
-      <workItem from="1629685463975" duration="1078000" />
+      <workItem from="1629685463975" duration="2279000" />
     </task>
     <servers />
   </component>
