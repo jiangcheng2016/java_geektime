@@ -1,17 +1,36 @@
 package com.jiangrzc.test;
 
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
 public class TestString {
 
     public static void main(String[] args) {
 
-        int a = 2;
-        int b = 2;
+//        int a = 2;
+//        int b = 2;
+//
+////        System.out.println(a.equals(b));
+//
+//        String c = "2";
+//        String d = new String("2");
+//
+//        System.out.println(c == d);
+//
 
-//        System.out.println(a.equals(b));
+        Map<String,String> map = new HashMap<>();
 
-        String c = "2";
-        String d = new String("2");
+        map.put("a","1");
+        map.put("a","2");
+        map.put("b","3");
 
-        System.out.println(c == d);
+        for (Map.Entry<String,String> m: map.entrySet()) {
+            System.out.println(m.getValue());
+            System.out.println(m.getKey());
+        }
+
+
+
     }
 }
