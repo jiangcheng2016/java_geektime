@@ -16,8 +16,18 @@ public class TestString {
 //        String c = "2";
 //        String d = new String("2");
 //
-//        System.out.println(c == d);
+//        System.out.println(c == d)
 //
+
+        String s = new String("hello");
+        String t = new String("hello");
+
+        System.out.println(s == t);
+        System.out.println(s.equals(t));
+
+        System.out.println(s.equals(new String("hello")));
+
+
 
         Map<String,String> map = new HashMap<>();
 

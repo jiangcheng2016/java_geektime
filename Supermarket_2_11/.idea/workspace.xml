@@ -20,9 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6df3301d-3940-48d5-aa48-79f9ef3881ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../recruitment/src/com/jiangrzc/javase/baseKonwelge/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recruitment/src/com/jiangrzc/javase/baseKonwelge/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../recruitment/src/com/jiangrzc/javase/baseKonwelge/TestMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,6 +179,7 @@
       <workItem from="1629985697743" duration="608000" />
       <workItem from="1630147460642" duration="11000" />
       <workItem from="1630583213780" duration="2388000" />
+      <workItem from="1630631936612" duration="624000" />
     </task>
     <servers />
   </component>
