@@ -4,6 +4,11 @@ import java.util.Arrays;
 
 public class test {
 
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+    }
+
     public static void main(String[] args) {
 
 
