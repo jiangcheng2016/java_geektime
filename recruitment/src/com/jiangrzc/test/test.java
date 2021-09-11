@@ -12,8 +12,16 @@ public class test {
 
     public static void main(String[] args) {
 
+        int x = 121;
 
-      //  System.out.println(Runtime.getRuntime().availableProcessors());
+        String str_x = String.valueOf(x);
+
+        StringBuilder str = new StringBuilder(str_x);
+
+        String str_new = str.reverse().toString();
+
+
+        System.out.println(str_x.equals(str_new));
 
 
 
