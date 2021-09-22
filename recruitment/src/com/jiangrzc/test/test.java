@@ -1,6 +1,6 @@
 package com.jiangrzc.test;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class test {
 
@@ -15,6 +15,17 @@ public class test {
         String str = "adkh";
         System.out.println(str.indexOf('a'));
 
+
+        List<Integer> list = new ArrayList<>();
+
+        LinkedList<Integer> link = new LinkedList<>();
+
+        link.add(1);
+        ArrayList<Integer> a = new ArrayList<>();
+        link.removeLast();
+
+        Map<Character,Integer> map = new HashMap<>();
+        map.put('c',map.getOrDefault('c',0)+1);
 
 //        int x = 121;
 //
