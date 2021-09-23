@@ -27,6 +27,10 @@ public class test {
         Map<Character,Integer> map = new HashMap<>();
         map.put('c',map.getOrDefault('c',0)+1);
 
+//        StringBuilder stringBuilder = new StringBuilder();
+//        StringBuffer stringBuffer = new StringBuffer();
+
+
 //        int x = 121;
 //
 //        String str_x = String.valueOf(x);
