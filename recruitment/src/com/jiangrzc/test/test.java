@@ -1,5 +1,6 @@
 package com.jiangrzc.test;
 
+import javax.management.remote.rmi._RMIConnection_Stub;
 import java.util.*;
 
 public class test {
@@ -12,20 +13,45 @@ public class test {
 
     public static void main(String[] args) {
 
-        String str = "adkh";
-        System.out.println(str.indexOf('a'));
+        int[] arr = new int[]{3,2,1};
 
+        PriorityQueue<Integer> que = new PriorityQueue<>(2,(o1,o2)->{
+            return o2-o1;
+        });
 
-        List<Integer> list = new ArrayList<>();
+        for(int i = 0; i < arr.length; i ++)
+        {
+            que.add(arr[i]);
+            if(que.size() > 2)
+                que.poll();
+        }
 
-        LinkedList<Integer> link = new LinkedList<>();
+        int[] res = new int[que.size()];
+        int i = 0;
+        while(que.size() > 0)
+        {
+            System.out.println(que.peek());
+            res[i ++] = que.peek();
+            que.poll();
+        }
 
-        link.add(1);
-        ArrayList<Integer> a = new ArrayList<>();
-        link.removeLast();
+        for (int k = 0; k < res.length; k ++)
+            System.out.print("res:" + res[k]);
 
-        Map<Character,Integer> map = new HashMap<>();
-        map.put('c',map.getOrDefault('c',0)+1);
+//        String str = "adkh";
+//        System.out.println(str.indexOf('a'));
+//
+//
+//        List<Integer> list = new ArrayList<>();
+//
+//        LinkedList<Integer> link = new LinkedList<>();
+//
+//        link.add(1);
+//        ArrayList<Integer> a = new ArrayList<>();
+//        link.removeLast();
+//
+//        Map<Character,Integer> map = new HashMap<>();
+//        map.put('c',map.getOrDefault('c',0)+1);
 
 //        StringBuilder stringBuilder = new StringBuilder();
 //        StringBuffer stringBuffer = new StringBuffer();
