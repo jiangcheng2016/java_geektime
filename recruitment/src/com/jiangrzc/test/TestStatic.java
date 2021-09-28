@@ -7,6 +7,8 @@ public class TestStatic {
 
     private static int i = 10;
 
+    private  String abc;
+
     static void run(){
         System.out.println("this is void run");
     }
@@ -15,5 +17,9 @@ public class TestStatic {
 
         TestStatic.run();
 
+    }
+
+    public void test(){
+//        this.abc;
     }
 }
