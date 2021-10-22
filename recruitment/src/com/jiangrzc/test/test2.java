@@ -2,7 +2,9 @@ package com.jiangrzc.test;
 
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
+import java.util.PriorityQueue;
 
 public class test2 {
     public static void main(String[] args) {
@@ -28,6 +30,15 @@ public class test2 {
 
         for(int i = 0; i < nums.length; i ++)
             System.out.print(nums[i]);
+
+        PriorityQueue<Integer> que = new PriorityQueue<>(
+                (o1,o2)->{
+                    return o1 - o2;
+                }
+        );
+
+
+
 
     }
 }
